@@ -1,2 +1,6 @@
-# react-webpack-babel
-React with Webpack and Babel
+# React Webpack Babel
+
+```
+npm i
+npm start
+```
