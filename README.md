@@ -1,6 +1,6 @@
 # React Webpack Babel
 
-Starter template for React projects leveraging Webpack bundler and Babel JavaScript compiler.
+Starter template for React projects leveraging Webpack4 bundler and Babel JavaScript compiler.
 
 ## Run
 
