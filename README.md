@@ -1,6 +1,12 @@
 # React Webpack Babel
 
+Starter template for React projects leveraging Webpack bundler and Babel JavaScript compiler.
+
+## Run
+
 ```
-npm i
+npm install
 npm start
 ```
+
+Browser should open automatically. Otherwise, navigate to the URL reported in the terminal.
