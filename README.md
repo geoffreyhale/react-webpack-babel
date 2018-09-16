@@ -13,8 +13,9 @@ Browser should open automatically. Otherwise, navigate to the URL reported in th
 
 ## Includes:
 
-- [x] react (webpack, babel)
-- [x] webpack-dev-server, hot module replacement
-- [x] css (webpack)
-- [x] eslint, prettier
-- [x] bootstrap, react-bootstrap
+-   [x] react (webpack, babel)
+-   [x] webpack-dev-server, hot module replacement
+-   [x] css (webpack)
+-   [x] eslint, prettier
+-   [x] bootstrap, react-bootstrap
+-   [x] react router (react-router-dom)
