@@ -16,3 +16,4 @@ Browser should open automatically. Otherwise, navigate to the URL reported in th
 - [x] react (webpack, babel)
 - [x] webpack-dev-server, hot module replacement
 - [x] css (webpack)
+- [x] eslint
