@@ -10,3 +10,9 @@ npm start
 ```
 
 Browser should open automatically. Otherwise, navigate to the URL reported in the terminal.
+
+## Includes:
+
+- [x] react (webpack, babel)
+- [x] webpack-dev-server, hot module replacement
+- [x] css (webpack)
