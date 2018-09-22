@@ -9,6 +9,9 @@ module.exports = {
     entry: {
         main: './src/index.jsx'
     },
+    devServer: {
+        historyApiFallback: true
+    },
     module: {
         rules: [
             {
@@ -27,5 +30,8 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.jsx']
     },
-    plugins: [htmlPlugin]
+    plugins: [htmlPlugin],
+    output: {
+        publicPath: '/'
+    }
 };
