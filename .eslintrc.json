@@ -4,7 +4,9 @@
     "rules": {
         "arrow-body-style": "off",
         "comma-dangle": "off",
+        "jsx-a11y/anchor-is-valid": "warn",
         "indent": ["error", 4],
+        "react/forbid-prop-types": "warn",
         "no-unused-vars": "warn"
     },
     "globals": {

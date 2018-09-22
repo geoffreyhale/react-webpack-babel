@@ -7,7 +7,9 @@ import './style.css';
 @observer
 class Blog extends React.Component {
     render() {
-        const { name, description, posts } = this.props.store.blog;
+        const { store } = this.props;
+        const { blog } = store;
+        const { name, description, posts } = blog;
 
         return (
             <div>
