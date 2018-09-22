@@ -1,7 +1,7 @@
 import React from 'react';
 
-import HelloWorld from '../shared/HelloWorld';
-import MyButton from '../shared/MyButton';
+import HelloWorld from '../../shared/HelloWorld';
+import MyButton from '../../shared/MyButton';
 
 const Home = () => {
     return (

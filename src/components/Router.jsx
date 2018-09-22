@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Link, Route } from 'react-router-dom';
 
-import Home from './Home/index';
-import About from './About/index';
-import Blog from './Blog/index';
+import Home from './pages/Home';
+import About from './pages/About';
+import Blog from './pages/Blog';
 
 const Router = () => (
     <BrowserRouter>
