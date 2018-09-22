@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Link, Route } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import { Grid } from 'react-bootstrap';
 import Menu from './Menu';
 import Home from './pages/Home';
