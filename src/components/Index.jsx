@@ -1,10 +1,10 @@
 import React from 'react';
 import { Provider } from 'mobx-react';
 import Router from './Router';
-import appStore from '../stores';
+import blogStore from '../stores/Blog';
 
 const Index = () => (
-    <Provider store={appStore}>
+    <Provider blog={blogStore}>
         <Router />
     </Provider>
 );

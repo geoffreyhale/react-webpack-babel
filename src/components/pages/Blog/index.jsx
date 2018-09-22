@@ -3,12 +3,11 @@ import { inject, observer } from 'mobx-react';
 import { PageHeader } from 'react-bootstrap';
 import './style.css';
 
-@inject('store')
+@inject('blog')
 @observer
 class Blog extends React.Component {
     render() {
-        const { store } = this.props;
-        const { blog } = store;
+        const { blog } = this.props;
         const { name, description, posts } = blog;
 
         return (
