@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { inject, observer } from 'mobx-react';
 import { PageHeader } from 'react-bootstrap';
 import './style.css';
@@ -6,6 +7,10 @@ import './style.css';
 @inject('blog')
 @observer
 class Blog extends React.Component {
+    static propTypes = {
+        blog: PropTypes.object
+    };
+
     render() {
         const { blog } = this.props;
         const { name, description, posts } = blog;

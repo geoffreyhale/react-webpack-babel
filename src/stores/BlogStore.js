@@ -25,6 +25,4 @@ decorate(BlogStore, {
     posts: observable
 });
 
-const blogStore = new BlogStore();
-
-export default blogStore;
+export default BlogStore;

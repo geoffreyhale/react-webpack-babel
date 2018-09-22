@@ -41,6 +41,7 @@
   "dependencies": {
     "mobx": "^5.1.1",
     "mobx-react": "^5.2.8",
+    "prop-types": "^15.6.2",
     "react": "^16.5.0",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.5.0",
