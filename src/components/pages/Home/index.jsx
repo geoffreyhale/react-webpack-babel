@@ -1,4 +1,5 @@
 import React from 'react';
+import { PageHeader } from 'react-bootstrap';
 
 import HelloWorld from '../../shared/HelloWorld';
 import MyButton from '../../shared/MyButton';
@@ -6,7 +7,7 @@ import MyButton from '../../shared/MyButton';
 const Home = () => {
     return (
         <div>
-            <h1>Home</h1>
+            <PageHeader>Home</PageHeader>
             <HelloWorld />
             <MyButton />
         </div>

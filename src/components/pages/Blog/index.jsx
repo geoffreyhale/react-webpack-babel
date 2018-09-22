@@ -1,5 +1,6 @@
 import React from 'react';
 import { inject, observer } from 'mobx-react';
+import { PageHeader } from 'react-bootstrap';
 import './style.css';
 
 @inject('store')
@@ -10,8 +11,9 @@ class Blog extends React.Component {
 
         return (
             <div>
-                <h1>{name}</h1>
-                <div className="text-muted">{description}</div>
+                <PageHeader>
+                    {name} <small>{description}</small>
+                </PageHeader>
                 <ul className="posts-list">
                     {posts.reverse().map(post => {
                         return (

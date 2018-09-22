@@ -1,9 +1,10 @@
 import React from 'react';
+import { PageHeader } from 'react-bootstrap';
 
 const About = () => {
     return (
         <div>
-            <h1>About</h1>
+            <PageHeader>About</PageHeader>
         </div>
     );
 };
