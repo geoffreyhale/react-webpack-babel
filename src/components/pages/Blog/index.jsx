@@ -11,7 +11,7 @@ class Blog extends React.Component {
                 <ul>
                     {this.props.store.posts.map(post => {
                         return (
-                            <li>
+                            <li key={post.id}>
                                 <a>{post.title}</a>
                             </li>
                         );
